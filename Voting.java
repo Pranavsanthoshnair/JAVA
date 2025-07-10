@@ -1,6 +1,8 @@
-// Name - Pranav S Nair
-// Date - 10/07/25
-// Purpose - Eligible For Voting or not.
+/*
+Name - Pranav S Nair
+Date - 10/07/25
+Purpose - Eligible For Voting or not.
+*/
 package demo;
 import java.util.Scanner;
 public class Voting {
