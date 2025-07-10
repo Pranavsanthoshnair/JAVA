@@ -1,6 +1,6 @@
-//Name - Pranav S Nair
-//Date - 10/07/2025
-//Purpose - Voting System
+// Name - Pranav S Nair
+// Date - 10/07/25
+// Purpose - Eligible For Voting or not.
 package demo;
 import java.util.Scanner;
 public class Voting {
@@ -12,5 +12,9 @@ public class Voting {
 		if(age>=18) {
 			System.out.println("You are eligible to vote");
 		}
+		else {
+			System.out.println("Not eligible to vote");
+		}
+		input.close();
 	}
 }
