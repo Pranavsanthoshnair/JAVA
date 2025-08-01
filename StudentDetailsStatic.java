@@ -20,7 +20,7 @@ class Student{
 		System.out.println("Roll No : "+rollNumber);
 	}
 }
-public class Main {
+public class StudentDetailsStatic {
 	public static void main(String[] args) {
 	Student s1 = new Student("John Doe",16);
 	s1.displayInfo();
