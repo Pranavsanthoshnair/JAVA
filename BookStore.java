@@ -36,9 +36,9 @@ class Book{
 }
 public class BookStore {
 	public static void main(String[] args) {
-	Book b1 = new Book("No body Cares", "Somebody");
+	Book b1 = new Book();
 	b1.displayInfo();
-	b1.displayInfo(true);
+	b1.displayInfo(false);
 	b1.displayTotalBooks();
 	Book b2 = new Book("No body Cares", "Somebody");
 	b2.displayInfo();
