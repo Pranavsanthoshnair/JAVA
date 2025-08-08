@@ -7,11 +7,11 @@ class Book{
 	boolean showLibrary;
 	static final String  library_name="Central Library";
 	Book(){
-		this.title=title;
-		this.author=author;
-		this.bookID=bookCounter;
+		title = "DEFAULT";
+		author = "DEFAULT";
+		bookID = 0;
 	}
-	Book(String title,String author){aswe3d
+	Book(String title,String author){
 		this.title=title;
 		this.author=author;
 		bookID=bookCounter++;
@@ -38,7 +38,6 @@ public class BookStore {
 	public static void main(String[] args) {
 	Book b1 = new Book();
 	b1.displayInfo();
-	b1.displayInfo(false);
 	b1.displayTotalBooks();
 	Book b2 = new Book("No body Cares", "Somebody");
 	b2.displayInfo();
