@@ -1,7 +1,7 @@
 /*
  * Name - Pranav S Nair
  * Date - 19/08/2025
- * Purpose - To print array
+ * Purpose - To print largest number of array.
  */
 package pranav;
 import java.util.Scanner;
@@ -20,5 +20,12 @@ public class ArrayS {
 		for(int i =0;i<size;i++) {
 			System.out.print(array[i]+"\t");
 		}
+		int largest = array[0];
+		for(int i =0;i<size;i++) {
+			if(array[i]>largest) {
+				largest = array[i];
+			}
+		}System.out.println("\n\nThe largest element is : " +  largest);
+		sc.close();
 	}
 }
